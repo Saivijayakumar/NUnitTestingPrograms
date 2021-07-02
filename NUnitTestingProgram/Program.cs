@@ -16,7 +16,7 @@ namespace NUnitTestingPrograms
             Console.WriteLine("\t\t\tWELCOME\n");
             Console.WriteLine("\tThese are the LIST of some NUnit Testing Programs");
             Console.WriteLine("\t----------------------------------------------");
-            Console.WriteLine("\t 1.Vending Machine\n\t 2.Day Of Week\n\t 3.Temperatur Conversion\n\t 4.Monthly Payment Calculation\n\t 5.Newton's square root\n\t 6.");
+            Console.WriteLine("\t 1.Vending Machine\n\t 2.Day Of Week\n\t 3.Temperatur Conversion\n\t 4.Monthly Payment Calculation\n\t 5.Newton's square root\n\t 6.Decimal To Binary");
             Console.WriteLine("\t----------------------------------------------");
             Console.Write("\tEnter your choice : ");
             switch (Convert.ToInt32(Console.ReadLine()))
@@ -40,6 +40,10 @@ namespace NUnitTestingPrograms
                 case 5:
                     Console.WriteLine("\t Newton's square root Code Starts");
                     Newtonsquare.ReadInput();
+                    break;
+                case 6:
+                    Console.WriteLine("\t Decimal To Binary Code Starts");
+                    DecimalToBinary.AnyConvertion();
                     break;
                 default:
                     Console.WriteLine("\t PLEASE ENTER A VALID OPTION");
