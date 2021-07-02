@@ -29,11 +29,11 @@ namespace NUnitTestingPrograms
                     Console.WriteLine("\t Day Of Week Code Starts");
                     DayOfWeek.ReadInput();
                     break;
-                /*case 3:
+                case 3:
                     Console.WriteLine("\t Prime Number Code Starts");
-                    PrimeNumber.CheckingPrime();
+                    TemperaturConversion.ExecutingCode();
                     break;
-                case 4:
+                /*case 4:
                     Console.WriteLine("\t Reversing Number Code Starts");
                     ReversingNumber.Reversing();
                     break;*/
