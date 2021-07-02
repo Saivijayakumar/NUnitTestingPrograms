@@ -49,6 +49,7 @@
     <Compile Include="Newtonsquare.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SwapingNibbles.cs" />
     <Compile Include="TemperaturConversion.cs" />
     <Compile Include="VendingMachine.cs" />
   </ItemGroup>
