@@ -16,7 +16,7 @@ namespace NUnitTestingPrograms
             Console.WriteLine("\t\t\tWELCOME\n");
             Console.WriteLine("\tThese are the LIST of some NUnit Testing Programs");
             Console.WriteLine("\t----------------------------------------------");
-            Console.WriteLine("\t 1.Vending Machine\n\t 2.Day Of Week\n\t 3.Prime Number\n\t 4.Reversing Number\n\t 5.");
+            Console.WriteLine("\t 1.Vending Machine\n\t 2.Day Of Week\n\t 3.Temperatur Conversion\n\t 4.Monthly Payment Calculation\n\t 5.");
             Console.WriteLine("\t----------------------------------------------");
             Console.Write("\tEnter your choice : ");
             switch (Convert.ToInt32(Console.ReadLine()))
@@ -30,13 +30,13 @@ namespace NUnitTestingPrograms
                     DayOfWeek.ReadInput();
                     break;
                 case 3:
-                    Console.WriteLine("\t Prime Number Code Starts");
+                    Console.WriteLine("\t Temperature Conversion Code Starts");
                     TemperaturConversion.ExecutingCode();
                     break;
-                /*case 4:
-                    Console.WriteLine("\t Reversing Number Code Starts");
-                    ReversingNumber.Reversing();
-                    break;*/
+                case 4:
+                    Console.WriteLine("\t Monthly Payment Calculation Code Starts");
+                    MonthlyPayment.GetingInputs();
+                    break;
                 default:
                     Console.WriteLine("\t PLEASE ENTER A VALID OPTION");
                     break;
