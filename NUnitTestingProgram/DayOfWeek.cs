@@ -8,24 +8,22 @@ namespace NUnitTestingPrograms
     {
         public static void ReadInput()
         {
+
             int date, month, year;
 
-            //Getting Date from 1-30
+            //Getting Date from user
             Console.WriteLine("Enter the date");
             date = Convert.ToInt32(Console.ReadLine());
-            //Getting Month from 1-12
+            //Getting Month from user
             Console.WriteLine("Enter the Month");
             month = Convert.ToInt32(Console.ReadLine());
             //Getting Year from user
             Console.WriteLine("Enter the year");
             year = Convert.ToInt32(Console.ReadLine());
-
-
+            //calling static function
             FindingDayOfWeek(date, month, year);
-
-
         }
-        //method for getting date
+        //method for Finding Day Of Week
         private static void FindingDayOfWeek(int d, int m, int y)
         {
             //Creating a array for Week
