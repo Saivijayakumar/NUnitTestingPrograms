@@ -11,6 +11,7 @@ namespace NUnitTestingPrograms
         public static void GenerateNotes()
         {
             Console.WriteLine("Enter amount to return change");
+            //Taking input from users
             int number = Convert.ToInt32(Console.ReadLine());
             FindingMinNotes(number);
         }

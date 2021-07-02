@@ -16,7 +16,7 @@ namespace NUnitTestingPrograms
             Console.WriteLine("\t\t\tWELCOME\n");
             Console.WriteLine("\tThese are the LIST of some NUnit Testing Programs");
             Console.WriteLine("\t----------------------------------------------");
-            Console.WriteLine("\t 1.Vending Machine\n\t 2.Perfect Number\n\t 3.Prime Number\n\t 4.Reversing Number\n\t 5.");
+            Console.WriteLine("\t 1.Vending Machine\n\t 2.Day Of Week\n\t 3.Prime Number\n\t 4.Reversing Number\n\t 5.");
             Console.WriteLine("\t----------------------------------------------");
             Console.Write("\tEnter your choice : ");
             switch (Convert.ToInt32(Console.ReadLine()))
@@ -25,11 +25,11 @@ namespace NUnitTestingPrograms
                     Console.WriteLine("\t Vending Machine Code Starts");
                     VendingMachine.GenerateNotes();
                     break;
-                /*case 2:
-                    Console.WriteLine("\t Perfect Number Code Starts");
-                    PerfectNumber.CheckingPerfectNumber();
+                case 2:
+                    Console.WriteLine("\t Day Of Week Code Starts");
+                    DayOfWeek.ReadInput();
                     break;
-                case 3:
+                /*case 3:
                     Console.WriteLine("\t Prime Number Code Starts");
                     PrimeNumber.CheckingPrime();
                     break;
